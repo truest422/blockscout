@@ -13,7 +13,7 @@ if (isDarkMode()) {
     document.getElementById('top-navbar').style.backgroundColor = '#282945'
   }
   if (document.getElementById('navbar-logo')) {
-    document.getElementById('navbar-logo').src = 'images/SocialVdark.svg'
+    document.getElementById('navbar-logo').src = 'images/SocialVlight.svg'
   }
   const modeChanger = document.getElementById('dark-mode-changer')
   if (modeChanger) {

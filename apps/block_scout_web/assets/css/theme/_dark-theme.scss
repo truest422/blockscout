@@ -84,11 +84,14 @@ $header-links-background-color-dark-mode: $dark-light !default;
 	// footer
 	.footer {
 		background: $dark-light-bg;
+		color: #fff;
+	}
+	.footer-social-icon
+	{
 		color: $labels-dark;
 	}
-	.footer-social-icon,
 	.footer-link {
-		color: $labels-dark;
+		color: #fff;
 	}
 	.footer-social-icon:hover,
 	.footer-link:hover {

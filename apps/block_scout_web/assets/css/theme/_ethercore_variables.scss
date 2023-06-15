@@ -61,11 +61,9 @@ $card-tab-active: $tertiary;
   }
 
   .dashboard-banner-container {
-    background-image: linear-gradient(
-      to bottom,
-      $dashboard-banner-gradient-start,
-      $dashboard-banner-gradient-end
-    );
+    background-image: linear-gradient(180deg,
+        #fc9757,
+        #fe3c6f);
   }
 
   .footer-logo {

@@ -74,7 +74,7 @@ config :block_scout_web, BlockScoutWeb.Chain,
 
 config :block_scout_web, :footer,
   logo: System.get_env("FOOTER_LOGO"),
-  chat_link: System.get_env("FOOTER_CHAT_LINK", "https://discord.gg/blockscout"),
+  chat_link: System.get_env("FOOTER_CHAT_LINK", "https://tawk.to/chat/6474abed74285f0ec46e3ef9/1h1jrv69q"),
   github_link: System.get_env("FOOTER_GITHUB_LINK", "https://github.com/blockscout/blockscout"),
   forum_link_enabled: ConfigHelper.parse_bool_env_var("FOOTER_FORUM_LINK_ENABLED"),
   forum_link: System.get_env("FOOTER_FORUM_LINK", "https://forum.poa.network/c/blockscout"),

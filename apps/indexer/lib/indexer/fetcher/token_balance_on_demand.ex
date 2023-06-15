@@ -75,7 +75,7 @@ defmodule Indexer.Fetcher.TokenBalanceOnDemand do
 
         balance_response =
           case stale_current_token_balance.token_type do
-            "ERC-1155" -> BalanceReader.get_balances_of_erc_1155(stale_current_token_balances_to_fetch)
+            "SVC-1155" -> BalanceReader.get_balances_of_erc_1155(stale_current_token_balances_to_fetch)
             _ -> BalanceReader.get_balances_of(stale_current_token_balances_to_fetch)
           end
 
@@ -117,7 +117,7 @@ defmodule Indexer.Fetcher.TokenBalanceOnDemand do
 
     balance_response =
       case token_type do
-        "ERC-1155" -> BalanceReader.get_balances_of_erc_1155([request])
+        "SVC-1155" -> BalanceReader.get_balances_of_erc_1155([request])
         _ -> BalanceReader.get_balances_of([request])
       end
 
